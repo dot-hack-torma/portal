@@ -1,0 +1,18 @@
+# Script is currently big work in progress, please be patient and please don't report any bugs. You can report bugs if the bugs are bees or praying mantises, they are pretty cool.
+
+# Planned TODO:
+# - Add dummy data .csv file so people can just add things to it from the get-go instead of needing to copy it from somewhere
+# - Remove expect (go version of sshpass could be bundled into our binary)
+# - Add ssh auto complete to closest match potentially if you just type in part of the word
+# - Add another flag to be able to perform commands on ssh connections --> for example, looks for files, or copy files found from server (if you have full path or something like that?)
+# - Add by-category sorting, or at least add some sort of title/dividers for different sets of categories
+# - Add the possibility of displaying only specific categories, instead of needing to scroll through a large amount of data
+# - Add sorting by pressing "/" (or maybe ":"?) first, and then typing characters, something like we have in less/vi
+# - Add help page which will print out hotkeys once I press "h" and return once I press any other key
+
+# DONE: 
+# - Grep through the list of connections (no regex though I guess? that would be a weird thing to implement -- it's a simple grep, please don't lynch me for not including the possibility of regexing for this...)
+# - Add printing all the connections to the terminal
+# - Add info bar about each selection, so that we don't blindly guess to which IP/hostname it's going to connect to...
+# - Add config file so we can adjust which browser you're using, terminal width (auto or set value), additional personal connections (terminal width and personal thingies not added yet, creating new task for that, but the config file is here and set up, with an init command which creates one if need be)
+# - Add instead of a GUI to have autocomplete in the terminal, or rather, just commands which you can use to ssh instead of needing to navigate a GUI

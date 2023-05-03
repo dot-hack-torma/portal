@@ -1,0 +1,19 @@
+entry_name,category,hostname,ip_address,port,username,password,protocol,short_key_id,note
+
+# GENERAL
+localhost,General,localhost,127.0.0.1,22,dtorma,test,ssh,-,NONE
+
+# TRAFFIC MANAGEMENT
+Torma FE VM,Traffic Management,10.30.67.183,10.30.67.183,22,root,password,ssh,-,Torma FE VM
+Torma FE VM FTP,Traffic Management,10.30.67.183,10.30.67.183,22,root,password,sftp,-,Torma FE VM
+Torma Subscriber VM,Traffic Management,10.30.67.165,10.30.67.165,22,root,password,ssh,-,Torma Subscriber VM
+Torma Subscriber VM FTP,Traffic Management,10.30.67.165,10.30.67.165,22,root,password,sftp,-,Torma Subscriber VM
+Torma Client VM,Traffic Management,10.30.57.250,10.30.57.250,22,root,password,ssh,-,Torma Client VM
+Torma Client VM FTP,Traffic Management,10.30.57.250,10.30.57.250,22,root,password,sftp,-,Torma Client VM
+Image build server,Traffic Management,10.30.23.150,10.30.23.150,22,root,password,ssh,kube,Image build server
+Image build server FTP,Traffic Management,10.30.23.150,10.30.23.150,22,root,password,sftp,-,Image build server
+Kubernetes,Traffic Management,10.30.101.71,10.30.101.71,22,root,password,ssh,build,Kubernetes
+Kubernetes FTP,Traffic Management,10.30.101.71,10.30.101.71,22,root,password,sftp,-,Kubernetes
+
+# CICD
+CICD Cluster 1,CICD,172.17.180.10,172.17.180.10,22,cicd,password,ssh,-,NONE
