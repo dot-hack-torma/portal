@@ -4,6 +4,7 @@ Bash Login Helper
 Script that can be used with arguments to execute immediately, or with a small terminal-gui, to connect to a remote host using either ssh, sftp, or http (open a window in a browser). Connection details depend on the hosts listed in the .csv file
 
 Example of how the menu can look like with some data inside:
+
 ![PORTAL](https://user-images.githubusercontent.com/12296614/235867351-4d4d59ef-c20f-47bf-b263-160924065265.png)
 
 Example of how to use it within the terminal ():
